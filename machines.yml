@@ -1,0 +1,15 @@
+#Kali Linux
+- name: kali
+  cpus: 1
+  memory: 3072
+  ip: 192.168.56.100
+  box: kalilinux/rolling
+#  script: provisionamento/testing.sh
+
+#Windows10
+- name: windows10
+  cpus: 1
+  memory: 3072
+  ip: 192.168.56.110
+  box: senglin/win-10-enterprise-vs2015community
+#  script: provisionamento/automation.sh
